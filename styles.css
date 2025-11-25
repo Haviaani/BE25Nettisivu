@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;       /* full width of viewport */
+    height: auto;
+    aspect-ratio: 16 / 9;  /* maintain 16:9 ratio */
+    position: relative;
+}
+
+header h1 {
+    font-size: 5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding-top: 1.5rem;
+}
+
+header {
+    position: relative;
+    background-image: url("Kinoseppo_tausta.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header-content{
+    background-color: rgb(128, 104, 104, 0.5);
+    width: 100%;
+    max-width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.intro {
+    background-color: rgb(128, 104, 104, 0.5);
+    position: absolute;
+    color: white;
+    top: 46.2%;
+    left: 49.2%;
+    transform: translate(-50%, -50%);
+    font-size: 1.1vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+    height: 23.3%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem; ;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
