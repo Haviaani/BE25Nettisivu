@@ -79,3 +79,81 @@ nav a {
     color: white;
     text-decoration: none;
 }
+
+.branch-section {
+    background-color: #0b0b0b;
+    padding: 3rem 1.5rem 4rem;
+    color: #fff;
+    text-align: center;
+}
+
+.branch-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2.5rem;
+    color: #ffd9d9;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.branch-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 2rem;
+}
+
+.branch-card {
+    background: rgba(40, 0, 0, 0.85);
+    border: 1px solid rgba(255, 120, 120, 0.3);
+    border-radius: 14px;
+    padding: 1.8rem 1.4rem;
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.branch-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0 32px rgba(255, 40, 40, 0.3);
+}
+
+.branch-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.7rem;
+    color: #ffcccc;
+    text-shadow: 1px 1px 3px black;
+}
+
+.branch-address,
+.branch-hours,
+.branch-opening {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.coming-soon {
+    border: 1px solid gold;
+    background: linear-gradient(135deg, rgba(70, 0, 0, 0.9), rgba(120, 0, 0, 0.7));
+    position: relative;
+    overflow: hidden;
+}
+
+.coming-soon::before {
+    content: "COMING SOON";
+    position: absolute;
+    top: 12px;
+    right: -45px;
+    background: linear-gradient(135deg, gold, orange);
+    padding: 5px 50px;
+    color: #000;
+    font-weight: bold;
+    transform: rotate(35deg);
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    font-size: 0.9rem;
+}
+
+.coming-soon .branch-opening {
+    color: gold;
+    font-weight: bold;
+    margin-top: 1rem;
+}
