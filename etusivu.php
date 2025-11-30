@@ -13,11 +13,12 @@
                 <h1>Kinoseppo elokuvateatterit</h1>
                 <nav>
                     <ul>
-                        <li><a href="elokuvat.php">Elokuvat</a></li>
-                        <li><a href="toimipisteet.php">Toimipisteet</a></li>
-                        <li><a href="yhteystiedot.php">Yhteystiedot</a></li>
+                        <li><a href="#elokuvat">Elokuvat</a></li>
+                        <li><a href="#toimipisteet">Toimipisteet</a></li>
+                        <li><a href="#yhteystiedot">Yhteystiedot</a></li>
                     </ul>
                 </nav>
+
             </div>
             <div class="intro">
                 <p>
