@@ -131,6 +131,13 @@ nav a {
     line-height: 1.6;
 }
 
+.movie-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: left;
+    font-weight: normal;
+}
+
 .coming-soon {
     border: 1px solid gold;
     background: linear-gradient(135deg, rgba(70, 0, 0, 0.9), rgba(120, 0, 0, 0.7));

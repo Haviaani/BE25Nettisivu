@@ -29,12 +29,73 @@
 
     <main>
 
-        <!-- Elokuvat-osio, ryhmän täydennettäväksi -->
+        <!-- Elokuvat-osio -->
         <section id="elokuvat" class="branch-section">
-            <h2>Elokuvat</h2>
-            <p style="margin-top: 2rem;">
-                Elokuvat-osion sisältö tulossa ryhmän toimesta.
-            </p>
+            <h2>Ohjelmistossa nyt</h2>
+
+            <div class="branch-grid">
+
+                <div class="branch-card">
+                    <h3>Swordfightin' in the Rain</h3>
+                    <p class="movie-description">
+                        Musikaali aikansa eläneestä miekkasoturista, jonka oppilaasta kasvaa häntä suurempi sankari.<br><br>
+                        Ohjaaja: Richard Richburg
+                    </p>
+                </div>
+
+                <div class="branch-card">
+                    <h3>A Fish Called Amanda</h3>
+                    <p class="movie-description">
+                        Rikos-komedia pieleen menneestä kalan kidnappauksesta ja sitä seuraavasta sekasotkusta.<br><br>
+                        Ohjaaja: Bronislava Mazánková
+                    </p>
+                </div>
+
+                <div class="branch-card">
+                    <h3>Nobody's Wife Min-hee</h3>
+                    <p class="movie-description">
+                        Korealainen indie-elokuva arjen hitaudesta, rutiinien tärkeydestä ja parisuhteista.<br><br>
+                        Ohjaaja: Lee Jong Wook
+                    </p>
+                </div>
+
+                <div class="branch-card">
+                    <h3>Viimeinen aivosolu</h3>
+                    <p class="movie-description">
+                        Hypertaiteellista vääntöä animoidussa scifi-seikkailussa. Lentäviä valaita taattu.<br><br>
+                        Ohjaaja: Chikayo Takeda
+                    </p>
+                </div>
+            </div>
+
+            <h2>Tulossa<h2>
+
+            <div class="branch-grid">
+
+                <div class="branch-card coming-soon">
+                    <h3>Me and the Bad Bitch I Pulled by Being Autistic</h3>
+                    <p class="movie-description">
+                        Draama epäsovinnaisesta romanssista, yhteiskunnan oletuksista ja oman äänen löytämisestä.<br><br>
+                        Ohjaaja: Seweryna Olszewska
+                    </p>
+                    <p class="branch-opening">
+                        Ensi-ilta: 23.12.2025
+                    </p>
+                </div>
+
+                <div class="branch-card coming-soon">
+                    <h3>Muotineuroosi</h3>
+                    <p class="movie-description">
+                        Romanttinen komedia muotialalta potkut saaneesta taiteilijanerosta, joka saa töitä pienen kotikaupunkinsa ala-asteen kuvisopettajana.<br><br>
+                        Ohjaaja: Hannele Hongisto
+                    </p>
+                    <p class="branch-opening">
+                        Ensi-ilta: 5.1.2026
+                    </p>
+                </div>
+
+            </div>
+
         </section>
 
         <!-- Toimipisteet – TÄMÄ ON SINUN OSUUTESI -->
