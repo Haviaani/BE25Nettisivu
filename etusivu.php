@@ -14,7 +14,6 @@
                 <nav>
                     <ul>
                         <li><a href="#elokuvat">Elokuvat</a></li>
-                        <li><a href="#tulossa">Tulossa</a></li>
                         <li><a href="#toimipisteet">Toimipisteet</a></li>
                         <li><a href="#yhteystiedot">Yhteystiedot</a></li>
 
@@ -70,7 +69,7 @@
                 </div>
             </div>
 
-            <h2 id="tulossa">Tulossa<h2>
+            <h2 id="tulossa">Tulossa</h2>
 
             <div class="branch-grid">
 
@@ -325,15 +324,5 @@
         </section>
 
     </main>
-    <script>
-        window.addEventListener("scroll", function() {
-            const header = document.querySelector(".header-content");
-            if (window.scrollY > window.innerHeight) {
-                header.classList.add("scrolled");
-            } else {
-                header.classList.remove("scrolled");
-        }
-    });
-    </script>
 </body>
 </html>
