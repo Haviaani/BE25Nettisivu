@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+html {
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 500;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -9,9 +17,8 @@
 }
 
 header h1 {
-    font-size: clamp(2rem, 6vw, 5rem); /* scales with screen size */
+    font-size: clamp(2rem, 6vw, 5rem);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    /*padding-top: 1.5rem;*/
 }
 
 header {
@@ -27,17 +34,26 @@ header {
     position: relative;
 }
 
-.header-content{
-    background-color: rgb(128, 104, 104, 0.5);
+.header-content {
+    background-color: rgba(40, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
     text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 2000;
+    width: 100%;
 }
+
+.header-content.scrolled {
+    background-color: rgba(40, 0, 0, 1);
+} 
 
 .intro {
     position: absolute;
     top: 66%;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(128, 104, 104, 0.5);
+    background: rgba(40, 0, 0, 0.5);
     max-width: 800px;
     width: 90%;
     padding: 1.5rem;
@@ -67,6 +83,10 @@ nav li {
     font-size: 1.2rem;
 }
 
+nav li:hover {
+    transform: translateY(-2px);
+}
+
 nav a {
     color: white;
     text-decoration: none;
@@ -81,6 +101,11 @@ nav a {
 
     .intro {
         width: 90%;
+        top: 50%
+    }
+
+    .header-content {
+        position: static;
     }
 }
 
