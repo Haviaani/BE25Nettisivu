@@ -89,6 +89,8 @@ nav a {
     padding: 3rem 1.5rem 4rem;
     color: #fff;
     text-align: center;
+    min-height: 100dvh;
+    max-height: 100dvh;
 }
 
 .branch-section h2 {
@@ -126,6 +128,66 @@ nav a {
     margin-bottom: 0.7rem;
     color: #ffcccc;
     text-shadow: 1px 1px 3px black;
+}
+
+.branch-button {
+    margin: 2rem auto 2rem auto;
+}
+
+.branch-form {
+    background: rgba(40, 0, 0, 0.85);
+    border: 1px solid rgba(255, 120, 120, 0.3);
+    border-radius: 14px;
+    padding: 1.8rem 1.4rem;
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+input, select, label, textarea {
+    padding: 0.5rem;
+    text-align: left;
+    font-size: 1.3rem;
+}
+
+button {
+    padding: 1rem 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    width: fit-content;
+    margin: 0 auto;
+    background: rgba(40, 0, 0, 0.85);
+    border: 1px solid rgba(255, 120, 120, 0.3);
+    border-radius: 14px;
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-weight: bold;
+    color: #ffd9d9;
+}
+
+button:hover {
+    padding: 1rem 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    width: fit-content;
+    margin: 0 auto;
+    background: rgb(70, 0, 0);
+    border: 1px solid rgba(255, 120, 120, 0.3);
+    border-radius: 14px;
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    color: black;
+}
+
+select {
+    margin: 1rem 0;
 }
 
 .branch-address,
@@ -167,4 +229,31 @@ nav a {
     color: gold;
     font-weight: bold;
     margin-top: 1rem;
+}
+
+.notification {
+    position: fixed;      
+    top: 50%;            
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background: rgba(255, 217, 217, 1);
+    border: 2px solid #000000;
+    padding: 2rem;
+    border-radius: 14px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
+    font-size: 22px;
+    color: rgba(40, 0, 0, 1);
+    z-index: 1000;
+    text-align: center;
+    animation: fadeinout 8s forwards;
+    opacity: 0;
+}
+
+@keyframes fadeinout {
+    0% {opacity: 0;}
+    10% {opacity: 0.5;}
+    20% {opacity: 1;}
+    60% {opacity: 1;}
+    80% {opaticty: 0.5;}
+    100% {opacity: 0;}
 }

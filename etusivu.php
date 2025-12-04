@@ -160,10 +160,166 @@
 
         <!-- Yhteystiedot-osio, ryhmän täydennettäväksi -->
         <section id="yhteystiedot" class="branch-section">
-            <h2>Yhteystiedot</h2>
-            <p style="margin-top: 2rem;">
-                Yhteystieto-osion sisältö tulossa ryhmän toimesta.
-            </p>
+
+            <?php 
+
+                $form = false;
+                $formSent = false;
+
+                if (isset($_POST['openForm'])) {
+                    $form = true;
+                }
+
+                if (isset($_POST['submit'])) {
+                    $formSent = true;                    
+                    $form = false;
+                }
+
+                if (!$form) { ?>
+
+                    <h2>Yhteystiedot</h2>
+
+                    <div class="branch-grid">
+                        
+                        <div class="branch-card">
+                            <h3>Asiakaspalvelu & lipunmyynti</h3>
+                            <p class="branch-address">
+                                asiakaspalvelu@kinoseppo.fi<br>
+                                020 - 123 4000
+                            </p>
+                        </div>
+
+                        <div class="branch-card">
+                            <h3>Ryhmä- ja yritysvaraukset</h3>
+                            <p class="branch-address">
+                                <b>Laura Vanhala, Ryhmämyyntivastaava</b><br>
+                                laura.vanhala@kinoseppo.fi<br>
+                                020 - 123 4101
+                            </p>
+                        </div>
+
+                        <div class="branch-card">
+                            <h3>Erikoistapahtumat</h3>
+                            <p class="branch-address">
+                                <b>Aleksi Hiltunen, Tapahtumakoordinaattori</b><br>
+                                aleksihiltunen@kinoseppo.fi<br>
+                                020 - 123 4102
+                            </p>
+                        </div>
+
+                        <div class="branch-card">
+                            <h3>Kinoseppo Turku</h3>
+                            <p class="branch-address">
+                                <b>Johanna Lehto, Teatteripäällikkö</b><br>
+                                johanna.lehto@kinoseppo.fi<br>
+                                020 - 123 4201
+                            </p>
+                        </div>
+                        
+                        <div class="branch-card">
+                            <h3>Kinoseppo - Helsinki</h3>
+                            <p class="branch-address">
+                                <b>Mikko Rantanen, Teatteripäällikkö</b><br>
+                                mikko.rantanen@kinoseppo.fi<br>
+                                020 - 123 4302
+                            </p>
+                        </div>
+                        
+                        <div class="branch-card">
+                            <h3>Kinoseppo Tampere</h3>
+                            <p class="branch-address">                    
+                                <b>Sara Rissanen, Teatteripäällikkö</b><br>
+                                sara.rissanen@kinoseppo.fi<br>
+                                020 - 123 4401
+                            </p>
+                        </div>
+                        
+                        <div class="branch-card">
+                            <h3>Tekniikka & AV</h3>
+                            <p class="branch-address">                                
+                                <b>Eero Niemi, AV-tekniikkavastaava</b><br>
+                                eero.niemi@kinoseppo.fi<br>
+                                020 - 123 4601
+                            </p>
+                        </div>
+                                        
+                        <div class="branch-card">
+                            <h3>Markkinointi ja PR</h3>
+                            <p class="branch-address">                                
+                                <b>Noora Mäkinen, Markkinointipäällikkö</b><br>
+                                noora.makinen@kinoseppo.fi<br>
+                                020 - 123 4701
+                            </p>
+                        </div>
+                                        
+                        <div class="branch-card">
+                            <h3>Laskutus</h3>
+                            <p class="branch-address">                                
+                                laskutus@kinoseppo.fi<br>
+                                020 - 123 4800
+                            </p>
+                        </div>  
+
+                    </div>  
+
+                        <?php if ($formSent) { ?>
+                            <div id="notification" class="notification">
+                                ✅ Kiitos viestistäsi! Otamme sinuun yhteyttä pian.
+                            </div>
+                        <?php } ?>
+                    
+                        <div class="branch-button">
+                            <form action="#yhteystiedot" method="POST">
+                                <button type="submit" name="openForm">Ota yhteyttä lomakkeella</button>
+                            </form>
+                        </div>  
+
+                    </div>
+
+            <?php } else { ?>
+
+                        <h2>Yhteydenotto</h2>
+
+                        <div class="branch-form">
+                            <form action="#yhteystiedot" method="POST">
+                                <div class="form-row">
+                                    <label for="name">Nimi:</label>
+                                    <input id="name" type="text" name="name" required>
+                                </div>
+                                <div class="form-row">
+                                    <label for="email">Sähköposti:</label>
+                                    <input id="email" type="email" name="email" required>
+                                </div>
+                                <div class="form-row">
+                                    <label for="phone">Puhelin:</label>
+                                    <input id="phone" type="text" name="phone" required>
+                                </div>
+                                <div class="form-row">
+                                    <select name="topic">
+                                        <option value="">Valitse yhteydenoton aihe</option>
+                                        <option value="general">Yleinen kysymys</option>
+                                        <option value="group">Ryhmä- ja yritysvaraukset</option>
+                                        <option value="event">Erikoistapahtumat</option>
+                                        <option value="feedback">Palaute</option>
+                                    </select>
+                                </div>
+                                <div class="form-row">
+                                    <textarea name="message" rows="4" placeholder="Kirjoita viestisi tähän" required></textarea>
+                                </div>
+                                <div class="form-checkbox">
+                                    <label>
+                                        <input type="checkbox" name="privacy" required>
+                                        Hyväksyn, että minulle otetaan yhteyttä sähköpostitse / puhelimella
+                                    </label>
+                                </div>
+                                <div class="form-row">
+                                    <button type="submit" name="submit">Lähetä</button>
+                                </div>
+                            </form>
+                        </div>  
+
+
+            <?php } ?>
         </section>
 
     </main>
