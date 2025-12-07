@@ -22,7 +22,7 @@
             </div>
             <div class="intro">
                 <p>
-                    Kinoseppo on moderni ja viihtyisä elokuvateatteriketju, joka tarjoaa unohtumattomia elokuvaelämyksiä ympäri Suomen. Kinosepon teattereissa yhdistyvät laadukas kuva ja ääni, mukavat istuimet sekä lämmin palvelu. Ohjelmistosta löytyy niin tuoreimmat ensi-illat, kotimaiset suosikit kuin klassikotkin, ja jokainen sali on suunniteltu tekemään elokuvakäynnistä erityisen nautinnollisen. Tiloissamme on myös mahdollista järjestää yksityistilauksia. Ote yhteyttä meihin lisätietoja varten. <br> Kinoseppo – enemmän kuin elokuva.
+                    Kinoseppo on moderni ja viihtyisä elokuvateatteriketju, joka tarjoaa unohtumattomia elokuvaelämyksiä ympäri Suomen. Kinosepon teattereissa yhdistyvät laadukas kuva ja ääni, mukavat istuimet sekä lämmin palvelu. Ohjelmistosta löytyy niin tuoreimmat ensi-illat, kotimaiset suosikit kuin klassikotkin, ja jokainen sali on suunniteltu tekemään elokuvakäynnistä erityisen nautinnollisen. Tiloissamme on myös mahdollista järjestää yksityistilaisuuksia. Ota yhteyttä meihin lisätietoja varten. <br> Kinoseppo – enemmän kuin elokuva.
                 </p>
             </div>
         </div>
