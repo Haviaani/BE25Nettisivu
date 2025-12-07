@@ -22,7 +22,16 @@
             </div>
             <div class="intro">
                 <p>
-                    Kinoseppo on moderni ja viihtyisä elokuvateatteriketju, joka tarjoaa unohtumattomia elokuvaelämyksiä ympäri Suomen. Kinosepon teattereissa yhdistyvät laadukas kuva ja ääni, mukavat istuimet sekä lämmin palvelu. Ohjelmistosta löytyy niin tuoreimmat ensi-illat, kotimaiset suosikit kuin klassikotkin, ja jokainen sali on suunniteltu tekemään elokuvakäynnistä erityisen nautinnollisen. Tiloissamme on myös mahdollista järjestää yksityistilauksia. Ote yhteyttä meihin lisätietoja varten. <br> Kinoseppo – enemmän kuin elokuva.
+                    Kinoseppo on moderni ja viihtyisä elokuvateatteriketju, 
+                    joka tarjoaa unohtumattomia elokuvaelämyksiä ympäri Suomen. 
+                    Kinosepon teattereissa yhdistyvät laadukas kuva ja ääni, 
+                    mukavat istuimet sekä lämmin palvelu. Ohjelmistosta löytyy 
+                    niin tuoreimmat ensi-illat, kotimaiset suosikit kuin klassikotkin, 
+                    ja jokainen sali on suunniteltu tekemään elokuvakäynnistä erityisen 
+                    nautinnollisen. Tiloissamme on myös mahdollista järjestää 
+                    yksityistilaisuuksia. Ota yhteyttä meihin lisätietoja varten. 
+                    <br> 
+                    Kinoseppo – enemmän kuin elokuva.
                 </p>
             </div>
         </div>
@@ -86,7 +95,8 @@
                 <div class="branch-card coming-soon">
                     <h3>Muotineuroosi</h3>
                     <p class="movie-description">
-                        Romanttinen komedia muotialalta potkut saaneesta taiteilijanerosta, joka saa töitä pienen kotikaupunkinsa ala-asteen kuvisopettajana.<br><br>
+                        Romanttinen komedia muotialalta potkut saaneesta taiteilijanerosta, joka saa töitä pienen 
+                        kotikaupunkinsa ala-asteen kuvisopettajana.<br><br>
                         Ohjaaja: Hannele Hongisto
                     </p>
                     <p class="branch-opening">
